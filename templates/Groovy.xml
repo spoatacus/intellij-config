@@ -1,0 +1,11 @@
+<templateSet group="Groovy">
+  <template name="dep" value="$TYPE$ group: '$GROUP$', name: '$NAME$', version: '$VERSION$'" description="Gradle dependency" toReformat="false" toShortenFQNames="false">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GROUP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>
