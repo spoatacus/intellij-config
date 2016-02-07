@@ -1,5 +1,5 @@
 <templateSet group="Java Logging">
-  <template name="slogger" value="private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger($CLASSNAME$);" description="Static logger (slf4j)" toReformat="true" toShortenFQNames="true">
+  <template name="slogger" value="private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger($CLASSNAME$.class);" description="Static logger (slf4j)" toReformat="true" toShortenFQNames="true">
     <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
